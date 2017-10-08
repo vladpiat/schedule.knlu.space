@@ -110,9 +110,9 @@ gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], func
 gulp.task('deploy', function() {
 
 	var conn = ftp.create({
-		host:      'hostname.com',
-		user:      'username',
-		password:  'userpassword',
+		host:      'radioday.ftp.ukraine.com.ua',
+		user:      'radioday_schedule',
+		password:  '92x1g1no',
 		parallel:  10,
 		log: gutil.log
 	});
@@ -122,7 +122,7 @@ gulp.task('deploy', function() {
 	'dist/.htaccess',
 	];
 	return gulp.src(globs, {buffer: false})
-	.pipe(conn.dest('/path/to/folder/on/server'));
+	.pipe(conn.dest('/schedule'));
 
 });
 
