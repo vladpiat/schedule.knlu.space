@@ -49,11 +49,11 @@
 
 	<!-- Custom Browsers Color Start -->
 	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#000">
+	<meta name="theme-color" content="#000f28">
 	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#000">
+	<meta name="msapplication-navbutton-color" content="#000f28">
 	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000f28">
 	<!-- Custom Browsers Color End -->
 
 </head>
@@ -74,7 +74,26 @@
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 					<div class="group_search">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Група...">
+							<!-- <select id="select-beast" class="demo-default" placeholder="Група...">
+								<option value="">Група...</option>
+								<option value="/Pa0117">Па 01-17</option>
+								<option value="/Pa0217">Па 02-17</option>
+								<option value="/Pa0317">Па 03-17</option>
+								<option value="/Pa0417">Па 04-17</option>
+								<option value="/Pa0517">Па 05-17</option>
+								<option value="/Pa0617">Па 06-17</option>
+								<option value="/Pa0717">Па 07-17</option>
+								<option value="/Pa0817">Па 08-17</option>
+								<option value="/Pa0917">Па 09-17</option>
+								<option value="/Pa1017">Па 10-17</option>
+								<option value="/Pa1117">Па 11-17</option>
+								<option value="/Pa1217">Па 12-17</option>
+							</select> -->
+
+							<!-- <input id="hero-demo" autofocus type="text" name="q" placeholder="Група..." > -->
+
+							 <input id="advanced-demo" autofocus type="text" name="q" placeholder="Country or language code ..." >
+
 							<span class="input-group-btn">
 								<button class="btn btn-default" type="button">Пошук</button>
 							</span>
@@ -91,9 +110,11 @@
 	<!-- Start Ad -->
 
 	<section class="advertise">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="text-center"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="text-center"></div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -104,238 +125,242 @@
 	<!-- Start schedule -->
 	
 	<section class="schedule">
-		<div class="row">
-			<div class="col-xs-12 col-md-2 col-md-offset-1">
-				<table class="table table-hover table-striped table-bordered">
-					<thead>
-						<tr>
-							<th colspan="2" class="text-center">Понеділок</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">1</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ІСТОРІЯ УКРАЇНИ</div>
-									<div class="teacher">проф. Васильчук В.М</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">2</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ІСТОРІЯ ЗАРУБІЖНОЇ ЛІТЕРАТУРИ</div>
-									<div class="teacher">доц. Шульгун М.Е.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">3</th>
-							<td>
-								<div class="item">
-									<div class="lesson">АНГЛІЙСЬКА МОВА</div>
-									<div class="teacher">ст. викл. Мартинюк О.С.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">4</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ЛАТИНСЬКА МОВА</div>
-									<div class="teacher">доц. Чемелюх М.А.</div>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-2 col-md-offset-1">
+					<table class="table table-hover table-striped table-bordered">
+						<thead>
+							<tr>
+								<th colspan="2" class="text-center">Понеділок</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ІСТОРІЯ УКРАЇНИ</div>
+										<div class="teacher">проф. Васильчук В.М</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ІСТОРІЯ ЗАРУБІЖНОЇ ЛІТЕРАТУРИ</div>
+										<div class="teacher">доц. Шульгун М.Е.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>
+									<div class="item">
+										<div class="lesson">АНГЛІЙСЬКА МОВА</div>
+										<div class="teacher">ст. викл. Мартинюк О.С.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ЛАТИНСЬКА МОВА</div>
+										<div class="teacher">доц. Чемелюх М.А.</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<table class="table table-hover table-striped table-bordered">
+						<thead>
+							<tr>
+								<th colspan="2" class="text-center">Вівторок</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ПРАКТИЧНА ГРАМАТИКА АНГЛІЙСЬКОЇ МОВИ</div>
+										<div class="teacher">ст. викл. Мартинюк О.С.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ВСТУП ДО МОВОЗНАВСТВА</div>
+										<div class="teacher">проф. Терехова Д.І.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>
+									<div class="item">
+										<div class="lesson">АНГЛІЙСЬКА МОВА</div>
+										<div class="teacher">ст. викл. Мартинюк О.С.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>
+									<div class="item">
+										<div class="lesson"></div>
+										<div class="teacher"></div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<table class="table table-hover table-striped table-bordered">
+						<thead>
+							<tr>
+								<th colspan="2" class="text-center">Середа</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>
+									<div class="item">
+										<div class="lesson">АНГЛІЙСЬКА МОВА</div>
+										<div class="teacher">ст. викл. Мартинюк О.С.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>
+									<div class="item">
+										<div class="lesson"></div>
+										<div class="teacher"></div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>
+									<div class="item">
+										<div class="lesson">СУЧАСНА УКРАЇНСЬКА ЛІТЕРАТУРНА МОВА</div>
+										<div class="teacher">доц. Заскалета В.П.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>
+									<div class="item">
+										<div class="lesson"></div>
+										<div class="teacher"></div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<table class="table table-hover table-striped table-bordered">
+						<thead>
+							<tr>
+								<th colspan="2" class="text-center">Четвер</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>
+									<div class="item">
+										<div class="lesson">АНГЛІЙСЬКА МОВА</div>
+										<div class="teacher">ст. викл. Мартинюк О.С.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ІСТОРІЯ ЗАРУБІЖНОЇ ЛІТЕРАТУРИ</div>
+										<div class="teacher">доц. Шульгун М.Е.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ФІЗИЧНЕ ВИХОВАННЯ</div>
+										<div class="teacher">ст.викл. Третьяков П.В.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>
+									<div class="item">
+										<div class="lesson"></div>
+										<div class="teacher"></div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table></div>
+				<div class="col-xs-12 col-md-2">
+					<table class="table table-hover table-striped table-bordered">
+						<thead>
+							<tr>
+								<th colspan="2" class="text-center">П'ятниця</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>
+									<div class="item">
+										<div class="lesson">СУЧАСНА УКРАЇНСЬКА ЛІТЕРАТУРА</div>
+										<div class="teacher">проф. Мариненко Ю.В.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>
+									<div class="item">
+										<div class="lesson">ПАРКТИЧНА ФОНЕТИКА АНГЛІЙСЬКОЇ МОВИ</div>
+										<div class="teacher">викл. Кукса І.М.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>
+									<div class="item">
+										<div class="lesson">АНГЛІЙСЬКА МОВА</div>
+										<div class="teacher">ст. викл. Мартинюк О.С.</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>
+									<div class="item">
+										<div class="lesson"></div>
+										<div class="teacher"></div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table></div>
 			</div>
-			<div class="col-xs-12 col-md-2">
-				<table class="table table-hover table-striped table-bordered">
-					<thead>
-						<tr>
-							<th colspan="2" class="text-center">Вівторок</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">1</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ПРАКТИЧНА ГРАМАТИКА АНГЛІЙСЬКОЇ МОВИ</div>
-									<div class="teacher">ст. викл. Мартинюк О.С.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">2</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ВСТУП ДО МОВОЗНАВСТВА</div>
-									<div class="teacher">проф. Терехова Д.І.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">3</th>
-							<td>
-								<div class="item">
-									<div class="lesson">АНГЛІЙСЬКА МОВА</div>
-									<div class="teacher">ст. викл. Мартинюк О.С.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">4</th>
-							<td>
-								<div class="item">
-									<div class="lesson"></div>
-									<div class="teacher"></div>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table></div>
-			<div class="col-xs-12 col-md-2">
-				<table class="table table-hover table-striped table-bordered">
-					<thead>
-						<tr>
-							<th colspan="2" class="text-center">Середа</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">1</th>
-							<td>
-								<div class="item">
-									<div class="lesson">АНГЛІЙСЬКА МОВА</div>
-									<div class="teacher">ст. викл. Мартинюк О.С.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">2</th>
-							<td>
-								<div class="item">
-									<div class="lesson"></div>
-									<div class="teacher"></div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">3</th>
-							<td>
-								<div class="item">
-									<div class="lesson">СУЧАСНА УКРАЇНСЬКА ЛІТЕРАТУРНА МОВА</div>
-									<div class="teacher">доц. Заскалета В.П.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">4</th>
-							<td>
-								<div class="item">
-									<div class="lesson"></div>
-									<div class="teacher"></div>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table></div>
-			<div class="col-xs-12 col-md-2">
-				<table class="table table-hover table-striped table-bordered">
-					<thead>
-						<tr>
-							<th colspan="2" class="text-center">Четвер</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">1</th>
-							<td>
-								<div class="item">
-									<div class="lesson">АНГЛІЙСЬКА МОВА</div>
-									<div class="teacher">ст. викл. Мартинюк О.С.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">2</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ІСТОРІЯ ЗАРУБІЖНОЇ ЛІТЕРАТУРИ</div>
-									<div class="teacher">доц. Шульгун М.Е.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">3</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ФІЗИЧНЕ ВИХОВАННЯ</div>
-									<div class="teacher">ст.викл. Третьяков П.В.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">4</th>
-							<td>
-								<div class="item">
-									<div class="lesson"></div>
-									<div class="teacher"></div>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table></div>
-			<div class="col-xs-12 col-md-2">
-				<table class="table table-hover table-striped table-bordered">
-					<thead>
-						<tr>
-							<th colspan="2" class="text-center">П'ятниця</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">1</th>
-							<td>
-								<div class="item">
-									<div class="lesson">СУЧАСНА УКРАЇНСЬКА ЛІТЕРАТУРА</div>
-									<div class="teacher">проф. Мариненко Ю.В.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">2</th>
-							<td>
-								<div class="item">
-									<div class="lesson">ПАРКТИЧНА ФОНЕТИКА АНГЛІЙСЬКОЇ МОВИ</div>
-									<div class="teacher">викл. Кукса І.М.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">3</th>
-							<td>
-								<div class="item">
-									<div class="lesson">АНГЛІЙСЬКА МОВА</div>
-									<div class="teacher">ст. викл. Мартинюк О.С.</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">4</th>
-							<td>
-								<div class="item">
-									<div class="lesson"></div>
-									<div class="teacher"></div>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table></div>
 		</div>
 	</section>
 

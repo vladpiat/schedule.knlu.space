@@ -54,6 +54,8 @@ gulp.task('libs', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/bootstrap/dist/bootstrap.min.js',
+		//'app/libs/selectize/dist/js/standalone/selectize.min.js',
+		'app/libs/Autocomplete/dist/auto-complete.min.js',
 		// 'app/libs/magnific-popup/magnific-popup.min.js'
 		])
 		.pipe(concat('libs.min.js'))
@@ -112,7 +114,7 @@ gulp.task('deploy', function() {
 	var conn = ftp.create({
 		host:      'radioday.ftp.ukraine.com.ua',
 		user:      'radioday_schedule',
-		password:  '92x1g1no',
+		password:  '180ygbd3',
 		parallel:  10,
 		log: gutil.log
 	});

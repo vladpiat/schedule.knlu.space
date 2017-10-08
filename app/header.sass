@@ -3,3 +3,62 @@
 @import "sass/base"
 
 //First screen styles
+body 
+    background-color: $background-color
+    min-height: 100vh
+
+.group_search
+    margin: 5px auto
+table
+    background-color: $table-bg
+    border-radius: $table-border-radius
+    border-collapse: separate
+    margin: 20px auto
+    thead 
+        background-color: #dde3ff
+        th:first-child
+            border-top-left-radius: $table-border-radius
+    th:last-child
+        border-top-right-radius: $table-border-radius
+    tbody tr:last-child 
+        td:last-child
+            border-bottom-right-radius: $table-border-radius
+        th:first-child
+            border-bottom-left-radius: $table-border-radius
+
+    td
+        height: 90px
+        word-break: break-word
+    th
+        text-align: center
+
+.lesson
+    font-size: 13px
+    text-transform: uppercase
+
+.teacher
+    font-size: 11px
+
+.text-center
+    text-align: center
+
+footer
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    background-color: $footerbg
+    .contact_us
+        font-size: 14px
+        margin: 20px auto
+        a
+            color: #bbb
+            &:hover
+                text-decoration: none
+                color: #fff
+            &:visited
+                text-decoration: none
+            &:active
+                text-decoration: none
+            &:focus
+                text-decoration: none
