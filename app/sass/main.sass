@@ -5,10 +5,25 @@
 //Custom styles here
 body 
     background-color: $background-color
-    min-height: 100vh
+    // min-height: 100vh
+header
+    background-color: $headerbg
 
-.group_search
+    .h1
+        color: $h1-color
+        margin-top: 20px
+        margin-bottom: 20px
+.h1-index
+    margin: 50px auto
+
+.search-box
+    padding-top: 20px
+
+.group-search-wrapper
     margin: 5px auto
+.group-search-wrapper-index
+    margin-top: 50px
+    margin-bottom: 120px
 table
     background-color: $table-bg
     border-radius: $table-border-radius
@@ -27,10 +42,13 @@ table
             border-bottom-left-radius: $table-border-radius
 
     td
-        height: 90px
+        // height: 110px
         word-break: break-word
     th
         text-align: center
+
+.schedule__friday
+    margin-bottom: 90px
 
 .lesson
     font-size: 13px
@@ -56,8 +74,19 @@ footer
             &:hover
                 text-decoration: none
                 color: #fff
+            &:visited
+                text-decoration: none
+            &:active
+                text-decoration: none
+            &:focus
+                text-decoration: none
 
 
-
+.group-search
+    width: 100%
+    border-radius: 3px
+.group-search-index
+        height: 40px
+        font-size: 30px
 
 @import "media"
